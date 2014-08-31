@@ -9,5 +9,9 @@
 		"default_title"	: "demo tab app",
 		"default_popup" : "popup.html"
 	},
+	"content_scripts"	: [{
+		"matches"	:	["http://*/*", "https://*/*"],
+		"js"	:	["myscript.js"]
+	}],
 	"manifest_version"	: 2
 }
