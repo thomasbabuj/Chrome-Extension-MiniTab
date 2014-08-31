@@ -1,0 +1,13 @@
+{
+	"name"	: "Tab List",
+	"version"	: "1.0",
+	"description" : "Shows list of opend tab details",
+	"permissions" : [
+		"tabs"
+	],
+	"browser_action" : {
+		"default_title"	: "demo tab app",
+		"default_popup" : "popup.html"
+	},
+	"manifest_version"	: 2
+}
